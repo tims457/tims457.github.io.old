@@ -99,8 +99,8 @@
     /* color-1(#11ABB0)
      * color-2(#F06000)
      */
-    --color-1: rgb(0, 117, 206);
-    --color-2: white;
+    --color-2: rgb(0, 117, 206);
+    --color-1: white;
 
     /* theme color variations
      */
@@ -1597,7 +1597,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: var(--color-2);
+    color: var(--color-1);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2946,7 +2946,7 @@ input[type="button"].btn--primary:focus {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     position: absolute;
     left: 0;
     bottom: 0;
