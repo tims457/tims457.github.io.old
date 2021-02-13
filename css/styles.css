@@ -3242,7 +3242,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-header__nav .current a {
-    color: var(--color-2);
+    color: var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3583,7 +3583,7 @@ input[type="button"].btn--primary:focus {
 
 .s-hero__content-social a:hover, 
 .s-hero__content-social a:focus {
-    color: var(--color-2-light);
+    color: var(--color-1);
 }
 
 .s-hero__content-social a:last-child {
