@@ -99,8 +99,8 @@
     /* color-1(#11ABB0)
      * color-2(#F06000)
      */
-    --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-1: rgb(0, 117, 206);
+    --color-2: white;
 
     /* theme color variations
      */
@@ -213,6 +213,7 @@
     --vspace-4    : calc(4 * var(--space));
     --vspace-4_5  : calc(4.5 * var(--space));
     --vspace-5    : calc(5 * var(--space));
+    --vspace-x    : calc(100 * var(--space));
 
     /* type scale
      * ratio 1:2 | base: 18px
@@ -1596,7 +1597,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: var(--color-1);
+    color: var(--color-2);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1672,6 +1673,7 @@ h2, .h2 {
     font-size: var(--text-xxl);
     line-height: calc(var(--vspace-1_25) + var(--vspace-0_125));
     letter-spacing: -.01em;
+    color: white;
 }
 
 h3, .h3 {
@@ -3447,7 +3449,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3464,7 +3466,7 @@ input[type="button"].btn--primary:focus {
     width: 100%;
     height: 100%;
     background: black;
-    opacity: .5;
+    opacity: 0;
 }
 
 .s-hero__bg::after {
@@ -3493,7 +3495,28 @@ input[type="button"].btn--primary:focus {
     padding-top: 16vh;
     padding-bottom: 12vh;
     position: relative;
+    
 }
+
+.s-hero__content-about {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* opacity: 0.5; */
+    border-radius: 50px;
+    padding: 1em;
+    
+}
+
+.s-hero__content-about hr{
+    border: solid #E3E3E3;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 11px 0 30px;
+    height: 0;
+    width: 80%;
+    text-align: center;
+    margin: 18px auto;
+}
+
 
 .s-hero__content h1 {
     font-size: 9.8rem;
@@ -3510,7 +3533,7 @@ input[type="button"].btn--primary:focus {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.667;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     margin-top: var(--vspace-0_5);
     margin-right: auto;
     margin-left: auto;
@@ -3787,7 +3810,7 @@ input[type="button"].btn--primary:focus {
     color: white;
 }
 
-.s-about__pic {
+s-about__pic {
     width: var(--vspace-5);
     height: var(--vspace-5);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
