@@ -1,5 +1,6 @@
 // Fonts preferences
-$sans-family: Roboto, sans-serif;
+$sans-family: SFMono, sans-serif;
+// $sans-family: Roboto, sans-serif;
 $mono-family: Consolas, monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
@@ -13,11 +14,14 @@ $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
 //Light Colors
-$text-base-color: #434648;
-$text-link-blue: #003fff;
-$text-link-blue-active: #0036c7;
+// $text-base-color: #434648;
+$text-base-color: #000000;
+// $text-link-blue: #003fff;
+// $text-link-blue-active: #0036c7;
+$text-link-blue: #c42c1f;
+$text-link-blue-active: #e82d1d;
 
-$black: #0d122b;
+$black: #000000;
 $light: #ececec;
 $smoke: #d2c7c7;
 $gray: #6b7886;
@@ -25,11 +29,14 @@ $white: #fff;
 
 // Dark Colors
 $dark-text-base-color: #c7bebe;
-$dark-text-link-blue: #ff5277;
-$dark-text-link-blue-active: #ff2957;
+$dark-text-base-color: #e6e6e6;
+// $dark-text-link-blue: #ff5277;
+// $dark-text-link-blue-active: #ff2957;
+$dark-text-link-blue: #528fff;
+$dark-text-link-blue-active: #2e4f8d;
 
 $dark-black: #131418;
-$dark-white: #eaeaea;
+$dark-white: #ffffff;
 $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
@@ -59,5 +66,5 @@ $on-widescreen: 1152px;
 }
 
 // Import sass files
-@import "klise/fonts", "klise/base", "klise/layout", "klise/post",
-  "klise/miscellaneous", "klise/syntax", "klise/dark";
+@import "klise/fonts", "klise/base", "klise/layout", "klise/post", "klise/miscellaneous",
+  "klise/syntax", "klise/dark";
