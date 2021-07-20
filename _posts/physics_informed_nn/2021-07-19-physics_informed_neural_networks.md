@@ -8,7 +8,7 @@ usemathjax: true
 
 # Physics informed neural networks
 
-PINNs can provide additional information about how the modeled dynamics should behave that isn't present when trying to learn the surface function alone. Let's say you have some complicated function $$u(t,x)$$, rather than trying to learn the outputs alone we augment the training objective with information about the dynamics of $$u$$ using partial derivatives. This provides an additional error signal to the deep learning model.
+PINNs can provide additional information about how the modeled dynamics should behave that isn't present when trying to learn the surface function alone. Let's say you have some complicated function $$u(t,x)$$, rather than trying to learn the outputs alone we augment the training objective with information about the dynamics of $$u$$ using partial derivatives. This provides an additional error signal to the deep learning model. Original paper: [Physics Informed Neural Networks](https://maziarraissi.github.io/PINNs/)
 
 $$\begin{array}{l} u_t + u u_x - (0.01/\pi) u_{xx} = 0,\ \ \ x \in [-1,1],\ \ \ t \in [0,1],\newline u(0,x) = -\sin(\pi x),\newline u(t,-1) = u(t,1) = 0. \end{array}$$
 
@@ -93,3 +93,12 @@ Now compare this with the same model trained with the partial derivative informa
 This next example uses the same neural network and optimizer as the naïve model, but this time the `f dataset` with partial derivates is included in the training. While the authors mention training a PINN can be conducted using traditional minibatch methods. This initial stab didn't work immediately. An L-BFGS approach is likely better with this small dataset, though it can quickly become difficult to compute with more data.
 
 ![Adam]({{ '/assets/img/physics_informed_nn/adam.png' | relative_url }})
+
+# References
+
+- [Physics Informed Neural Networks](https://maziarraissi.github.io/PINNs/)
+- [BFGS vs Adam](https://stats.stackexchange.com/questions/315626/the-reason-of-superiority-of-limited-memory-bfgs-over-adam-solver)
+- [BFGS](https://machinelearningmastery.com/bfgs-optimization-in-python/)
+- [Another TF2 PINN implementation](https://github.com/pierremtb/PINNs-TF2.0)
+- [MLTP 2020 Presentation](https://mltp2020.com/Presentations/Karniadakis_NSF_MLTP2020.pdf)
+- [CIS522: Deep learning](https://www.seas.upenn.edu/~cis522/slides/CIS522_Lecture11T.pdf)
