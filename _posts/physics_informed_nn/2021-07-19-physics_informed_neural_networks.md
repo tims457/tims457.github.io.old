@@ -3,12 +3,11 @@ title: Physics informed neural networks
 date: 2021-07-19 20:33:00
 tags: [physics, machine learning]
 description: Physics informed neural networks
-usemathjax: true
 ---
 
 # Physics informed neural networks
 
-PINNs can provide additional information about how the modeled dynamics should behave that isn't present when trying to learn the surface function alone. Let's say you have some complicated function $$u(t,x)$$, rather than trying to learn the outputs alone we augment the training objective with information about the dynamics of $$u$$ using partial derivatives. This provides an additional error signal to the deep learning model. Original paper: [Physics Informed Neural Networks](https://maziarraissi.github.io/PINNs/)
+PINNs can provide additional information about how the modeled dynamics should behave that isn't present when trying to learn the surface function alone. Let's say you have some complicated function $u(t,x)$, rather than trying to learn the outputs alone we augment the training objective with information about the dynamics of $u$ using partial derivatives. This provides an additional error signal to the deep learning model. Original paper: [Physics Informed Neural Networks](https://maziarraissi.github.io/PINNs/)
 
 $$\begin{array}{l} u_t + u u_x - (0.01/\pi) u_{xx} = 0,\ \ \ x \in [-1,1],\ \ \ t \in [0,1],\newline u(0,x) = -\sin(\pi x),\newline u(t,-1) = u(t,1) = 0. \end{array}$$
 
@@ -51,7 +50,7 @@ def F_model(x,t):
 
 # Training
 
-The training uses a combined dataset of true $$u(t,x)$$, boundary points, and solutions to $$f(t,x)$$ which are evaluated simultaneously, and the total loss is a combination of loss due to $$u$$ and $$f$$.
+The training uses a combined dataset of true $u(t,x)$, boundary points, and solutions to $f(t,x)$ which are evaluated simultaneously, and the total loss is a combination of loss due to $u$ and $f$.
 
 $$\text{Loss} = \text{MSE}_u + \text{MSE}_f $$
 
@@ -72,13 +71,13 @@ def train_step(X_u, u_true, X_f):
 
 # Example
 
-Let's see an example of PINNs solving a difficult problem using the Burgers' equation. The notebook for this example can be found [here](https://github.com/tims457/ml_notebooks/blob/main/pinns/physics_informed_neural_networks_1.ipynb). The expected value of $$u(t,x)$$ is below. The training set uses 10,000 samples to compute $$f(t,x)$$ and 50 to compute $$u(t,x)$$ directly.
+Let's see an example of PINNs solving a difficult problem using the Burgers' equation. The notebook for this example can be found [here](https://github.com/tims457/ml_notebooks/blob/main/pinns/physics_informed_neural_networks_1.ipynb). The expected value of $u(t,x)$ is below. The training set uses 10,000 samples to compute $f(t,x)$ and 50 to compute $u(t,x)$ directly.
 
 ![True data]({{ '/assets/img/physics_informed_nn/true_data.png' | relative_url }})
 
 ## Naïve model
 
-This first example is a neural network with 6 layers of 20 neurons per hidden layer trained without the $$f(t,x)$$ dataset, simply trying to predict $$u(t,x)$$. The model is trained using Adam with a learning rate of 0.01, $$\beta_1=0.99$$ and $$\epsilon = 0.1$$ for 1000 epochs. The result captures _some_ of the trends in the data but overall performs poorly when tested on the full dataset.
+This first example is a neural network with 6 layers of 20 neurons per hidden layer trained without the $f(t,x)$ dataset, simply trying to predict $u(t,x)$. The model is trained using Adam with a learning rate of 0.01, $\beta_1=0.99$ and $\epsilon = 0.1$ for 1000 epochs. The result captures _some_ of the trends in the data but overall performs poorly when tested on the full dataset.
 
 ![naive]({{ '/assets/img/physics_informed_nn/naive.png' | relative_url }})
 

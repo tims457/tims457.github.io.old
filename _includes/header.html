@@ -157,24 +157,23 @@
   <meta name="theme-color" content="#2c2c2c" />
 
   <link rel="stylesheet" href="/assets/css/style.css" />
-  {% comment %}
-  <!-- for mathjax support -->
-  {% if page.usemathjax %}
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    TeX: { equationNumbers: { autoNumber: "AMS" } }
-    });
+
+  <!-- For Latex -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        packages: ["base", "ams"],
+        inlineMath: [["$", "$"]],
+      },
+      loader: {
+        load: ["ui/menu", "[tex]/ams"],
+      },
+    };
   </script>
   <script
     type="text/javascript"
+    id="MathJax-script"
     async
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  ></script>
-  {% endif %} {% endcomment %}
-
-  <!-- For Latex -->
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
   ></script>
 </head>
