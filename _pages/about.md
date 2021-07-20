@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-layout: page
+layout: about_page
 excerpt: Aerospace and machine learning
 comments: false
 ---
