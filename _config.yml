@@ -12,11 +12,9 @@ mode: light # default theme "dark" | "light"
 author:
   name: Tim # author name
   # bio: >- # tell to the world
-  username: username # general username
   github: tims457 # github username
   twitter: tims457 # twitter username
   facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
@@ -34,6 +32,7 @@ collections:
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
+excerpt_separator: <!--more-->
 kramdown:
   input: GFM
   auto_ids: true
@@ -91,3 +90,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-toc

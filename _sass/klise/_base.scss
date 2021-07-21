@@ -77,6 +77,14 @@ figure,
   margin-bottom: $spacing-full - 20;
 }
 
+.table-of-content {
+  li {
+    // font-size: 96%;
+    color: $text-link-blue;
+    // list-style-type: disc;
+  }
+}
+
 // strong | bold
 strong,
 b {
@@ -262,7 +270,6 @@ em {
 blockquote {
   color: $gray;
   font-style: italic;
-  text-align: center;
   opacity: 0.9;
   border-top: 1px solid $light;
   border-bottom: 1px solid $light;

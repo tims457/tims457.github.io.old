@@ -3,7 +3,15 @@ title: Physics informed neural networks
 date: 2021-07-19 20:33:00
 tags: [physics, machine learning]
 description: Physics informed neural networks
+toc: true
 ---
+
+> Physics informed neural networks use additional loss terms based on the dynamics of the function being learned to improve performance for learning complex systems.
+<!--more-->
+
+{:class="table-of-content"}
+* TOC
+{:toc}
 
 # Physics informed neural networks
 
