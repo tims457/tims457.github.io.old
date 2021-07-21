@@ -93,6 +93,11 @@
       bottom: -3px;
       outline: none;
     }
+    &.footerrss {
+      position: absolute;
+      bottom: -30px;
+      outline: 2px solid $black;
+    }
 
     @include media-query($on-mobile) {
       opacity: 0.8;
