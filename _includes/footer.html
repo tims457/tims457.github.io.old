@@ -12,13 +12,14 @@
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
 
-{%- if page.google_analytics -%}
+{% comment %} {%- if page.google_analytics -%}
 <script src="/assets/js/galite.js"></script>
 <script>
   var galite = galite || {};
   galite.UA = "{{ site.google_analytics }}";
 </script>
-{%- endif -%} {%- if page.url == '/archive/' -%}
+{%- endif -%}  {% endcomment %}
+{%- if page.url == '/archive/' -%}
 <script src="/assets/js/search.min.js"></script>
 <script>
   var sjs = SimpleJekyllSearch({
