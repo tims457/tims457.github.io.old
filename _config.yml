@@ -66,10 +66,6 @@ number_of_posts: 5
 sass:
   style: compressed
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-140409858-1          # Required - replace with your tracking id
-
 include:
   - _redirects
   - .htaccess
@@ -95,4 +91,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-postfiles
   - jekyll-toc
-  - jekyll-analytics
