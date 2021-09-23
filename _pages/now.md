@@ -1,12 +1,12 @@
 ---
-title: Now
+title: now
 permalink: /now/
 layout: default
 excerpt: now
 comments: false
 ---
 
-# Now
+# now
 
 ## learning /thinking about
 - reinforcement learning algorithms
