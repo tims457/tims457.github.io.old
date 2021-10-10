@@ -28,6 +28,7 @@ fb_appid:
 # Collection setting
 collections:
   posts:
+    permalink: /blog/:year/:month/:title/
     output: true
 
 # Markdown settings

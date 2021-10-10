@@ -249,6 +249,9 @@
       font-size: 16px;
     }
   }
+  .post-item-suptitle {
+    font-size: $base-font-size * 3;
+  }
 
   .post-item-title {
     margin: 0;
@@ -265,6 +268,19 @@
       &focus {
         color: $black;
       }
+    }
+  }
+  .post-item-description{
+    color: $gray;
+    font-style: italic;
+    // padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+  
+    > :last-child {
+      margin-bottom: 0;
+      margin-top: 0;
     }
   }
 }

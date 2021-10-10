@@ -33,8 +33,10 @@ layout: compress
       <div class="not-found">
         <div class="container">
           <div class="title">404</div>
+          <p class="subtitle">This is not the page you're looking for. 🙁</p>
           <p class="phrase"></p>
-          <a class="solution" href="{{ site.url }}">back home</a>
+          <a class="solution" href="{{ site.url }}/archive">click here if you are not redirected</a>
+          <meta http-equiv = "refresh" content = "3; url = {{ site.url }}/archive" />
         </div>
       </div>
     </main>  

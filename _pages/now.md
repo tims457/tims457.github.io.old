@@ -1,12 +1,11 @@
 ---
 title: now
 permalink: /now/
-layout: default
+layout: page
 excerpt: now
 comments: false
 ---
 
-# now
 
 ## learning /thinking about
 - reinforcement learning algorithms
@@ -16,4 +15,5 @@ comments: false
     - Pyro, PyMC3, TensorFlow Probability
 
 ## working on
-- NLP Streamlit application
+- model-based reinforcement learning similar to [this paper](http://arxiv.org/abs/1903.00374).
+ 

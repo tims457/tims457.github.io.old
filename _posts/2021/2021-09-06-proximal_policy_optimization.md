@@ -2,13 +2,9 @@
 title: Proximal policy optimization (PPO)
 date: 2021-09-06 10:00:00
 tags: [ machine learning, reinforcement learning, tensorflow, proximal policy optimization (PPO)]
-description: My notes from implementing PPO in TensorFlow
+description: My notes from learning to implement PPO including trust regions, importance sampling, and other topics.
 toc: true
 ---
-
-> My notes from learning to implement PPO including trust regions, importance sampling, and other topics.
-
-<!--more-->
 
 {:class="table-of-content"}
 * TOC
