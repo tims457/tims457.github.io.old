@@ -7,7 +7,7 @@ comments: false
 ---
 
 
-## learning /thinking about
+## learning / thinking about
 - reinforcement learning algorithms
     - planning / model predictive control
     - [denoising autoencoders](https://arxiv.org/abs/1903.11981)
