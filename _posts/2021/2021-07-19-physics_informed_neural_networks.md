@@ -79,25 +79,25 @@ def train_step(X_u, u_true, X_f):
 
 Let's see an example of PINNs solving a difficult problem using the Burgers' equation. The notebook for this example can be found [here](https://github.com/tims457/ml_notebooks/blob/main/pinns/physics_informed_neural_networks_1.ipynb). The expected value of $u(t,x)$ is below. The training set uses 10,000 samples to compute $f(t,x)$ and 50 to compute $u(t,x)$ directly.
 
-![True data]({{ '/assets/images/physics_informed_nn/true_data.png' | relative_url }})
+![True data]({{ '/assets/images/2021/physics_informed_nn/true_data.png' | relative_url }})
 
 ## Naïve model
 
 This first example is a neural network with 6 layers of 20 neurons per hidden layer trained without the $f(t,x)$ dataset, simply trying to predict $u(t,x)$. The model is trained using Adam with a learning rate of 0.01, $\beta_1=0.99$ and $\epsilon = 0.1$ for 1000 epochs. The result captures _some_ of the trends in the data but overall performs poorly when tested on the full dataset.
 
-![naive]({{ '/assets/images/physics_informed_nn/naive.png' | relative_url }})
+![naive]({{ '/assets/images/2021/physics_informed_nn/naive.png' | relative_url }})
 
 ## PINN
 
 Now compare this with the same model trained with the partial derivative information and an L-BFGS optimizer replicating the approach used in the paper. The training data in this example comes mostly from the `f dataset`.
 
-![lbfgs]({{ '/assets/images/physics_informed_nn/lbfgs.png' | relative_url }})
+![lbfgs]({{ '/assets/images/2021/physics_informed_nn/lbfgs.png' | relative_url }})
 
 ## PINN with Adam
 
 This next example uses the same neural network and optimizer as the naïve model, but this time the `f dataset` with partial derivates is included in the training. While the authors mention training a PINN can be conducted using traditional minibatch methods. This initial stab didn't work immediately. An L-BFGS approach is likely better with this small dataset, though it can quickly become difficult to compute with more data.
 
-![Adam]({{ '/assets/images/physics_informed_nn/adam.png' | relative_url }})
+![Adam]({{ '/assets/images/2021/physics_informed_nn/adam.png' | relative_url }})
 
 # References
 

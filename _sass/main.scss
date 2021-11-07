@@ -1,11 +1,13 @@
 // Fonts preferences
-$sans-family: SFMono, sans-serif;
+// $sans-family: SFMono, sans-serif;
 // $sans-family: Roboto, sans-serif;
+$sans-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 $mono-family: Consolas, monospace;
-$base-font-size: 16px;
+$base-font-size: 17px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.85;
+// $base-line-height: 1.85;
+$base-line-height: 29px;
 
 // Font weight
 // $light-weight: 300; // uncomment if necessary
@@ -39,7 +41,7 @@ $dark-black: #1a1a1b;//#131418;
 $dark-white: #ffffff;
 $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
-$dark-gray: #767f87;
+$dark-gray: #b7c1ca;
 
 // Width of the content area
 $wide-size: 890px;

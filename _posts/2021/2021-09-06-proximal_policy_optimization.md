@@ -42,7 +42,7 @@ An explanation I've heard a lot for entropy is a measure of the disorder in a sy
 
 Since this is an on-policy method an additional entropy penalty is added to the loss to increase exploration. Take the entropy of the distributions resulting from evaluating the actor and scale it by a small constant, usually 0.01. This increases the loss for unpredictable distributions. As the actor improves, the entropy of its output distribution decreases.
 
-![entropy_loss.png](/assets/images/ppo/entropy_loss.png)
+![entropy_loss.png](/assets/images/2021/ppo/entropy_loss.png)
 
 ## Algorithm
 
@@ -50,7 +50,7 @@ Run the current policy or $\pi_\text{old}$ with one or many actors in parallel f
 
 $$\begin{aligned}&\hat{A}_{t}=\delta_{t}+(\gamma \lambda) \delta_{t+1}+\cdots+\cdots+(\gamma \lambda)^{T-t+1} \delta_{T-1} \\&\text { where } \quad \delta_{t}=r_{t}+\gamma V\left(s_{t+1}\right)-V\left(s_{t}\right)\end{aligned}$$
 
-![algorithm](/assets/images/ppo/algorithm.png)
+![algorithm](/assets/images/2021/ppo/algorithm.png)
 *Reproduced from the original [paper](http://arxiv.org/abs/1707.06347)*
 
 ### Advantage
@@ -133,8 +133,8 @@ for batch in batches:
 
 Despite being simpler than TRPO to implement, PPO still requires some tuning of hyperparameters to succeed except in very simple environments. Below are some examples using my [TensorFlow implementation](https://github.com/tims457/rl_agents) on the OpenAI gym discrete lunar lander environment. 
 
-![training_loss_reward](/assets/images/ppo/training_loss_reward.png)
-![animation](/assets/images/ppo/animation.gif)
+![training_loss_reward](/assets/images/2021/ppo/training_loss_reward.png)
+![animation](/assets/images/2021/ppo/animation.gif)
 
 ## Next steps
 Now that this discrete version of PPO is working, I want to work on adapting the algorithm for continuous control (testing it on the continuous version of lunar lander) as well as using it on custom environments rather than just the OpenAI gym.
