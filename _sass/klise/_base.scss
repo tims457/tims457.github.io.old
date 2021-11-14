@@ -119,10 +119,11 @@ kbd {
 // Image
 img {
   max-width: 100%;
-  vertical-align: middle;
+  // vertical-align: middle;
   -webkit-user-drag: none;
-  margin: 0 auto;
+  margin: auto auto;
   text-align: center;
+  display: block;
 }
 
 .imlink {
@@ -138,6 +139,7 @@ figure {
 figure > img {
   display: block;
   position: relative;
+  
 }
 
 // Image caption
