@@ -23,7 +23,7 @@ url: "https://sullivantm.com" #
 baseurl:
 permalink: /:title/
 google_analytics: UA-140409858-1
-fb_appid:
+fb_appid: 
 
 # Collection setting
 collections:
