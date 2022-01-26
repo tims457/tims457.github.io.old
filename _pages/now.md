@@ -10,9 +10,9 @@ comments: false
 ## learning / thinking about
 - reinforcement learning algorithms
     - planning / model predictive control
-    - [denoising autoencoders](https://arxiv.org/abs/1903.11981)
 
 ## working on
+- custom reinforcement learning environments
 - probabilistic programing
     - uncertainty modeling
     - Pyro, PyMC3, TensorFlow Probability.
