@@ -6,16 +6,13 @@ excerpt: now
 comments: false
 ---
 
+last update: 2022-07-02
 
 ## learning / thinking about
 - reinforcement learning algorithms
-    - planning / model predictive control
 
 ## working on
-- custom reinforcement learning environments
-- probabilistic programing
-    - uncertainty modeling
-    - Pyro, PyMC3, TensorFlow Probability.
+- custom reinforcement learning environments and applications
 
-- learning [JAX](https://github.com/google/jax) and [related packages](https://deepmind.com/blog/article/using-jax-to-accelerate-our-research)
+
  
