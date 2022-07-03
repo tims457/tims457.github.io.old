@@ -1,7 +1,7 @@
 ---
 title: Reinforcement learning for spacecraft
 date: 2022-07-02 08:10:00
-tags: [space, JAX, reinforcement learning, Flax, CR3BP]
+tags: [space, astrodynamics, JAX, reinforcement learning, Flax, CR3BP]
 description: Simple reinforcement learning problem for spacecraft in the circular restricted three-body problem (CR3BP)
 toc: true
 ---
