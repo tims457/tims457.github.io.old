@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../website_theme_examples/ljvmiranda921.github.io-master"
+		},
+		{
+			"path": "../testjekyll"
+		},
+		{
+			"path": "../website_theme_examples/minima"
+		}
+	],
+	"settings": {}
+}

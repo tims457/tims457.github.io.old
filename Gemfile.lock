@@ -38,10 +38,17 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-postfiles (3.1.0)
+      jekyll (>= 3.8.6, < 5)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-toc (0.17.1)
+      jekyll (>= 3.9)
+      nokogiri (~> 1.11)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -53,9 +60,14 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.0)
+    racc (1.6.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -80,6 +92,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
+  jekyll-postfiles
+  jekyll-sitemap
+  jekyll-toc
   kramdown-parser-gfm
   minima!
   tzinfo (~> 1.2)

@@ -1,0 +1,6 @@
+// Placeholder to allow overriding predefined variables smoothly.
+$base-font-family: "IBM Plex Serif";
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;

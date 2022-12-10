@@ -1,6 +1,7 @@
 ---
 title: Physics informed neural networks
 date: 2021-07-19 20:33:00
+category: posts
 tags: [physics, machine learning]
 description: Applying techniques based on the dynamics of the function being learned to improve performance on complex systems.
 toc: true
