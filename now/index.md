@@ -8,8 +8,8 @@ comments: false
 
 last update: 2022-11-21
 
-## learning / thinking about
+## Learning / thinking about
 - reinforcement learning algorithms
 
-## working on
+## Working on
 - custom reinforcement learning environments and applications

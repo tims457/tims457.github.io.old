@@ -8,4 +8,3 @@
 layout: home
 ---
 
-Index content
