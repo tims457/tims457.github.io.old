@@ -16,7 +16,7 @@
 title: Tim Sullivan
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Writings on space, machine learning, complex systems, and other topics.
+  Writings on space, machine learning, and other topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sullivantm.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tims457
