@@ -22,6 +22,8 @@ url: "https://sullivantm.com" # the base hostname & protocol for your site, e.g.
 twitter_username: tims457
 github_username:  tims457
 show_excerpts: true
+google_analytics: UA-140409858-1
+
 
 # Social settings
 social_sites:
@@ -59,11 +61,17 @@ collections:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
