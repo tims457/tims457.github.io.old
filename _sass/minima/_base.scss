@@ -1,3 +1,9 @@
+// @font-face {
+//   font-family: 'Lora';
+//   // src:  url('/assets/font/Lora-VariableFont_wght.ttf') 
+// }
+
+
 html {
   font-size: $base-font-size;
 }
@@ -19,16 +25,19 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  // color: $text-color;
+  font-family: Lora, "Times New Roman", serif;
+  // font-weight: "light";
+  color: var(--text-color);
+  background-color: var(--background-color);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
-  display: flex;
+  display: block;
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
@@ -112,15 +121,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-base-color;
+  color: var(--link-base-color);
   text-decoration: none;
 
   &:visited {
-    color: $link-visited-color;
+    color: var(--link-visited-color);
   }
 
   &:hover {
-    color: $link-hover-color;
+    color: var(--link-hover-color);
     text-decoration: underline;
   }
 
@@ -138,8 +147,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
+  color: var(--brand-color);
+  border-left: 4px solid var(--border-color-01);
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   font-style: italic;
@@ -162,9 +171,9 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
+  border: 1px solid var(--border-color-01);
   border-radius: 3px;
-  background-color: $code-background-color;
+  background-color: var(--code-background-color);
 }
 
 code {
@@ -184,11 +193,11 @@ pre {
 
 .highlight {
   border-radius: 3px;
-  background: $code-background-color;
+  background: var(--code-background-color);
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: $code-background-color;
+    background: var(--code-background-color);
   }
 }
 
@@ -278,4 +287,16 @@ table {
     -webkit-overflow-scrolling: touch;
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
 }
