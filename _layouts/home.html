@@ -1,16 +1,48 @@
 ---
 layout: default
-home: true
 ---
-<header class="header"> <h1 class="header-title center" itemprop="headline">recent posts</h1> </header>
-{%- for post in site.posts limit: site.number_of_posts -%}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }} </span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-<article class="post-item">
-<p class="post-item-description"> {{ post.description }} </p>
-</article>
-{%- endfor -%}
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <!-- <div class="divider">
+    <div class="left">
+      <img id="profilepic" width="200" height="200"  src="assets/img/IMG_4901.jpeg" alt="Profile" />
+    </div>
+    <div class="right">
+      <p>{{content}}</p>
+    </div>
+  </div>
+
+  &nbsp;
+
+  <hr/>
+
+  &nbsp; -->
+
+  <h2>Recent Posts</h2>
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  <ul class="post-list">
+    {% assign mainPosts = site.posts | where: 'type', 'post' %}
+    {% for post in posts limit:3 %}
+    <li>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <span class="post-meta">{{ post.date | date: date_format }} &verbar; {{ post.category | capitalize }}</span>
+
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+      <p style="color:#828282">{{ post.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+
+
+</div>

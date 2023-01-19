@@ -1,0 +1,105 @@
+---
+title: Library
+permalink: /library/
+layout: page
+excerpt: reading recommendations
+comments: false
+---
+
+## Some favorites
+- Antifragile
+- Boyd
+- Complexity a Guided Tour
+- Exhalation
+- Finite and Infinite Games
+- Lessons of History
+- Man for all Markets
+- Man's Search for Meaning
+- Meditations
+- The Most Important Thing
+- The Obstacle is the Way
+- Outliers
+- Sapiens
+- Seveneves
+- Stories of Your Life and Others
+- Surely You're Joking Mr. Feynman
+- Thinking in Bets
+- The Three-Body Problem Trilogy
+- Zero to One
+
+## Somewhat chronologically
+- Ball Lightning
+- The silk roads
+- price wars
+- Ball Lightning
+- Draft No 4
+- Finite and Infinite Games
+- Boyd
+- Exhalation
+- working backwards
+- Earth unaware
+- How to take smart notes
+- Genome
+- Cryptonomicon
+- Complexity a Guided Tour
+- Thinking in Systems
+- Thinking in Bets
+- Arrival
+- The Man Who Solved the Market
+- Good omens
+- Dark Forest
+- Superforecasting
+- Training for the Uphill Athlete
+- Seventh Sense
+- Way of the Peaceful Warrior
+- Left of Boom
+- Emotional Intelligence (Goleman)
+- Leonardo da Vinci
+- Homo Deus
+- Influence
+- The Rise of Money
+- Outliers
+- David and Goliath
+- Tipping Point
+- 12 Rules for Life
+- Stealing fire
+- The Three Body Problem
+- Zero to One
+- The First Tycoon
+- First Man
+- Iron Gold - Red Rising 4
+- Small Puddles
+- Irrational Exuberance- Jan
+- Surely You’re Joking Mr Feynmann
+- The Subtle Art of Not Giving a Fuck
+- Seveneves
+- Seeking Wisdom
+- Man for All Markets
+- Double Government
+- Fooled by Randomness
+- The Undoing Project
+- The Afghan Campaign
+- The Most Important Thing
+- Destined for War
+- 33 Strategies of War
+- The Effective Executive
+- Grokking Algorithms
+- Lessons of History
+- Principles (Dalio)
+- Code
+- Foundation
+- Artemis
+- Tribe
+- Letters from a Stoic
+- Meditations
+- Antifragile
+- The War of Art
+- Man's Search for Meaning
+- Intelligent Investor
+- Random Walk down Wall Street
+- How to not be wrong
+- Ego is the Enemy
+- Sapiens
+- Failure is not an Option
+- Elon Musk
+- The Obstacle is the Way

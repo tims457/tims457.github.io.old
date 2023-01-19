@@ -1,31 +1,34 @@
-<footer class="footer">
-  <a class="imlink" href="https://twitter.com/tims457">
-    <img class="footer_item" src="{{ '/assets/img/logo_twitter.png' | relative_url }}" height="20" />
-  </a>
-  <a class="imlink" href="https://github.com/tims457">
-    <img class="footer_item" src="{{ '/assets/img/logo_gh.png' | relative_url }}" height="20" />
-  </a>
-  <a class="imlink" href="https://www.linkedin.com/in/t-sullivan/">
-    <img class="footer_item" src="{{ '/assets/img/logo_li.png' | relative_url }}" height="20" />
-  </a>
-  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
-</footer>
-<script src="/assets/js/main.js" defer="defer"></script>
+<footer class="site-footer">
 
-{% comment %} {%- if page.google_analytics -%}
-<script src="/assets/js/galite.js"></script>
-<script>
-  var galite = galite || {};
-  galite.UA = "{{ site.google_analytics }}";
-</script>
-{%- endif -%}  {% endcomment %}
-{%- if page.url == '/archive/' -%}
-<script src="/assets/js/search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById("search-input"),
-    resultsContainer: document.getElementById("search-results"),
-    json: "/assets/search.json",
-  });
-</script>
-{%- endif -%}
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+            {{ site.author | escape }}
+            {% else %}
+            {{ site.title | escape }}
+            {% endif %}
+          </li>
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {% include social.html %}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

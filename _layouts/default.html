@@ -1,38 +1,90 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{% include header.html %}
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-<body data-theme="{{ site.mode }}" class="notransition">
-
-  <script>
-    const body = document.body;
-    const data = body.getAttribute("data-theme");
-
-    const initTheme = (state) => {
-      if (state === "dark") {
-        body.setAttribute("data-theme", "dark");
-      } else if (state === "light") {
-        body.removeAttribute("data-theme");
-      } else {
-        localStorage.setItem("theme", data);
-      }
-    };
- 
-    initTheme(localStorage.getItem("theme"));
-    
-    setTimeout(() => body.classList.remove("notransition"), 75);
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
   </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript"></script>
 
-  {% include navbar.html %}
-  <div class="wrapper">
-    {% comment %} {% include author.html %} {% endcomment %}
-    <main aria-label="Content">
+
+{%- include head.html -%}
+
+<body>
+  <div class="page">
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
       {{ content }}
-    </main>
-    {% include footer.html %}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
   </div>
 </body>
+
+<script>
+  let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+  let theme = sessionStorage.getItem('theme');
+
+  if (systemInitiatedDark.matches) {
+    document.getElementById("theme-toggle").innerHTML = "Light Mode";
+  } else {
+    document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+  }
+
+  function prefersColorTest(systemInitiatedDark) {
+    if (systemInitiatedDark.matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.getElementById("theme-toggle").innerHTML = "Light Mode";
+      sessionStorage.setItem('theme', '');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+      sessionStorage.setItem('theme', '');
+    }
+  }
+  systemInitiatedDark.addListener(prefersColorTest);
+
+
+  function modeSwitcher() {
+    let theme = sessionStorage.getItem('theme');
+    if (theme === "dark") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    } else if (theme === "light") {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      sessionStorage.setItem('theme', 'dark');
+      document.getElementById("theme-toggle").innerHTML = "Light Mode";
+    } else if (systemInitiatedDark.matches) {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      sessionStorage.setItem('theme', 'dark');
+      document.getElementById("theme-toggle").innerHTML = "Light Mode";
+    }
+  }
+
+  if (theme === "dark") {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    sessionStorage.setItem('theme', 'dark');
+    document.getElementById("theme-toggle").innerHTML = "Light Mode";
+  } else if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+    sessionStorage.setItem('theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    
+  }
+</script>
+
+
 </html>
