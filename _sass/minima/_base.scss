@@ -294,5 +294,9 @@ table {
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 48
+  'opsz' 48;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
 }
