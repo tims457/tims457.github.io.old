@@ -6,8 +6,6 @@ excerpt: reading recommendations
 comments: false
 ---
 
-You can see a list of 
-
 ## Some favorites
 - Antifragile
 - Boyd
