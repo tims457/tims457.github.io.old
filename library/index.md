@@ -33,6 +33,10 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
+- Market Tremors
+    > If we had to write a rough prescription for adjusting risk estimates in the presence of a Dominant Agent, it would be guided by the following questions. Who are the main players in a given market or asset class? How big are they, in terms of balance sheet size, ownership or percentage of volume traded? What is their typical behavior? Do they trade in the direction of a price move, trade against it or do they display chameleon-like behavior based on prevailing market conditions? How much will they be forced to trade, given a sufficiently large price shock in a specific direction? What is the likely price impact of forced rebalancing of fixed size?
+- Red Blooded Risk
+    > Taking less risk than is optimal is not safer; it just locks in a worse outcome. In competitive fields, doing less than the best often means failing completely. Taking more risk than is optimal also results in a worse outcome, and often leads to complete disaster.
 - Ball Lightning
 - The Silk Roads
 - Price Wars
