@@ -1,5 +1,14 @@
-// {
-//     "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-
-//     "frontMatter.taxonomy.categories": []
-// }
+{
+    "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+    "frontMatter.content.pageFolders": [
+        {
+          "title": "projects",
+          "path": "[[workspace]]/projects/_posts"
+        },
+        {
+          "title": "notebook",
+          "path": "[[workspace]]/notebook/_posts"
+        }
+      ]
+ 
+}

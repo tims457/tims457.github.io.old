@@ -57,6 +57,9 @@ collections:
   posts:
     permalink: /blog/:year/:month/:title/
     output: true
+  # notebook:
+  #   permalink: /notebook/:year/:month/:title/
+  #   output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
