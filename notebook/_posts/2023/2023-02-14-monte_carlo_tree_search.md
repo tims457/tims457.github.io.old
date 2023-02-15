@@ -4,7 +4,7 @@ title: "Monte Carlo Tree Search"
 date: 2023-02-14
 category: notebook
 author: Tim
-tags: [decision-making, Julia, uncertainty]
+tags: [decision making, Julia, uncertainty, monte carlo tree search]
 description: "Explanation of Monte Carlo Tree Search Algorithm for solving POMDPs"
 ---
 
