@@ -29,14 +29,17 @@
   </div>
 </body>
 
-<script type="text/javascript">
-  let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+<script>
+  // let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
   let theme = sessionStorage.getItem('theme');
   if (theme === "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
   } else if (theme === "light") {
     document.documentElement.setAttribute('data-theme', 'light');
-  } 
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    sessionStorage.setItem('theme', 'light');
+  }
 
   function modeSwitcher() {
     let theme = sessionStorage.getItem('theme');
@@ -46,7 +49,10 @@
     } else if (theme === "light") {
       document.documentElement.setAttribute('data-theme', 'dark');
       sessionStorage.setItem('theme', 'dark');
-    } 
+    }  else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+    }
   }
 
 
