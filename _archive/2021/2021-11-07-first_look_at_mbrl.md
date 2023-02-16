@@ -2,9 +2,12 @@
 title: First look at model-based reinforcement learning MBRL
 date: 2021-11-07 11:42:0
 category: posts
+layout: post
 tags: [model-based reinforcement learning, reinforcement learning, proximal policy optimization (PPO), pytorch]
 description: Exploring model-based RL and learning about its challenges firsthand.
 toc: true
+redirect_from:
+  - /blog/2021/11/first_look_at_mbrl/
 ---
 
 {:class="table-of-content"}

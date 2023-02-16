@@ -8,7 +8,8 @@ tags: [space, astrodynamics, JAX, reinforcement learning, Flax, CR3BP]
 description:  Simple reinforcement learning problem for spacecraft in the circular restricted three-body problem (CR3BP)
 excerpt: Simple reinforcement learning problem for spacecraft in the circular restricted three-body problem (CR3BP)
 toc: true
-
+redirect_from:
+  - /blog/2022/07/spacecraft_rl/
 ---
 
 

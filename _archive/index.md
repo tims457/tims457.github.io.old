@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Notebook
-description: Tim's notes
-permalink: /notebook/
+title: Archive
+permalink: /archive/
 ---
 
 <ul>
-  {% for post in site.categories.notebook %}
+{% assign sortedArchive = site.archive | sort: "date" | reverse %}
+
+{% for post in sortedArchive %}
+    {% if post.title != 'Archive' %}
     <li>
         <span>{{ post.date | date_to_string }}</span> » {% if post.highlight %}&starf; {% endif %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
-  {% endfor %}
+    {% endif %}
+{% endfor %}
+
 </ul>
