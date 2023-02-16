@@ -6,8 +6,6 @@ category: posts
 tags: [physics, machine learning]
 description: Applying techniques based on the dynamics of the function being learned to improve performance on complex systems.
 toc: true
-redirect_from:
-  - /blog/2021/07/physics_informed_neural_networks/
 ---
 
 

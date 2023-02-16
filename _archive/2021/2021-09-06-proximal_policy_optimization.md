@@ -6,8 +6,6 @@ layout: post
 tags: [ machine learning, reinforcement learning, tensorflow, proximal policy optimization (PPO)]
 description: My notes from learning to implement PPO including trust regions, importance sampling, and other topics.
 toc: true
-redirect_from:
-  - /blog/2021/09/proximal_policy_optimization/
 ---
 
 {:class="table-of-content"}

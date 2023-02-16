@@ -6,8 +6,6 @@ layout: post
 tags: [denoising autoencoder, JAX, Haiku, model-based reinforcement learning]
 description: Building a denoising autoencoder in JAX and Haiku for better planning with model-based RL
 toc: true
-redirect_from:
-  - /blog/2021/11/daes_and_jax/
 ---
 
 
