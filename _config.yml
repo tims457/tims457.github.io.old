@@ -44,6 +44,7 @@ plugins:
   - jekyll-postfiles
   - jekyll-toc
   - jekyll-tagories
+  - jekyll-redirect-from
 
 
 # Default front matter

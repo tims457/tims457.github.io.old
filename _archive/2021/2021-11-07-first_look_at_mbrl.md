@@ -6,6 +6,8 @@ layout: post
 tags: [model-based reinforcement learning, reinforcement learning, proximal policy optimization (PPO), pytorch]
 description: Exploring model-based RL and learning about its challenges firsthand.
 toc: true
+redirect_from:
+  - /blog/2021/11/first_look_at_mbrl/
 ---
 
 {:class="table-of-content"}
