@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-toc'
   gem 'jekyll-sitemap'
   gem 'jekyll-postfiles'
+  gem "jekyll-tagories", "~> 0.1.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -41,3 +42,5 @@ gem "kramdown-parser-gfm"
 
 
 gem "webrick", "~> 1.7"
+gem 'jekyll-redirect-from'
+
