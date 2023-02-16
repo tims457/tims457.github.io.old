@@ -7,7 +7,8 @@ excerpt: Sorted article by tags.
 
 <div class="archive-tags">
   <!-- <a class="tag-item" href="#">all</a> -->
-  {%- for tag in site.tags -%} 
+  {% assign sortedTags = site.tags | sort %}
+  {%- for tag in sortedTags  -%} 
     {% capture name %}{{ tag | first }}{% endcapture %}
     <a class="tag-item" href="#{{name}}">{{ name }} |</a> 
   {%- endfor -%}
@@ -17,7 +18,7 @@ excerpt: Sorted article by tags.
 <hr>
 
 &nbsp;
-{%- for tag in site.tags -%}
+{%- for tag in sortedTags -%}
   {%- capture name -%}{{ tag | first }}{%- endcapture -%}
   <h3 id="{{ name }}">#{{ name | upcase }}</h3>
   {%- for post in site.tags[name] -%}
