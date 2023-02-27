@@ -1,11 +1,15 @@
-// @font-face {
-//   font-family: 'Lora';
-//   // src:  url('/assets/font/Lora-VariableFont_wght.ttf') 
-// }
+@font-face {
+  font-family: 'adobe-garamond-pro';
+  src:  url('./assets/font/Lora-VariableFont_wght.ttf') 
+}
 
 
 html {
   font-size: $base-font-size;
+}
+
+h1, h2, .site-title {
+  font-family: 'orpheuspro', 'adobe-garamond-pro', serif;
 }
 
 /**
@@ -27,8 +31,9 @@ dl, dd, ol, ul, figure {
 body {
   // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   // color: $text-color;
-  font-family: Lora, "Times New Roman", serif;
-  // font-weight: "light";
+  // font-family: Lora, "Times New Roman", serif;
+  font-family: 'adobe-garamond-pro', serif;
+  font-weight: 400;
   color: var(--text-color);
   background-color: var(--background-color);
   -webkit-text-size-adjust: 100%;
