@@ -35,6 +35,7 @@ comments: false
 ## Somewhat chronologically
 - The Kill Chain
     > In reality, true military innovation is less about technology than about operational and organizational transformation. Indeed, history is replete with examples of military rivals that had the same technologies, and what set them apart is how they used them and organized themselves differently.
+    
     > Our focus must be on building and buying integrated networks of kill chains, not individual platforms and systems. We need to buy outcomes, not things.
 - Market Tremors
     > If we had to write a rough prescription for adjusting risk estimates in the presence of a Dominant Agent, it would be guided by the following questions. Who are the main players in a given market or asset class? How big are they, in terms of balance sheet size, ownership or percentage of volume traded? What is their typical behavior? Do they trade in the direction of a price move, trade against it or do they display chameleon-like behavior based on prevailing market conditions? How much will they be forced to trade, given a sufficiently large price shock in a specific direction? What is the likely price impact of forced rebalancing of fixed size?
