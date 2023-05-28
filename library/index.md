@@ -33,6 +33,12 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
+- Why Greatness Cannot Be Planned
+    > The problem is that the stepping stone does not resemble the final product.
+- Science, Strategy and War: The Strategic Theory of John Boyd
+    > The dominant and overarching theme in Boyd’s work is not the narrow interpretation of rapid OODA looping, or “decision superiority”, but rather the ability to adapt to the unfolding, multidimensional events, which occur at different time scales.
+- The Mind of War
+    > What Boyd is all about is a way of thinking and the creation of organizations and organisms that are adaptive and capable of rapidity, variety, harmony, and initiative. Only in this way can they hope to survive and prosper in the face of complex change and uncertainty.
 - The Kill Chain
     > In reality, true military innovation is less about technology than about operational and organizational transformation. Indeed, history is replete with examples of military rivals that had the same technologies, and what set them apart is how they used them and organized themselves differently.
     
