@@ -6,9 +6,12 @@ excerpt: reading recommendations
 comments: false
 ---
 
+*I love to read, and try to get through a couple dozen books a year. I didn't always keep a list so there are plenty missing. I've also been going back and adding a meaningful quote or two.*
+
 ## Some favorites
 - Antifragile
 - Boyd
+- Blindsight
 - Complexity a Guided Tour
 - Exhalation
 - Finite and Infinite Games
@@ -33,6 +36,8 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
+- Blindsight
+- The Theoretical Minimum: Classical Mechanics
 - Why Greatness Cannot Be Planned
     > The problem is that the stepping stone does not resemble the final product.
 - Science, Strategy and War: The Strategic Theory of John Boyd
@@ -125,6 +130,7 @@ comments: false
 - Intelligent Investor
 - Random Walk down Wall Street
 - How to not be wrong
+- Game of Thrones
 - Ego is the Enemy
 - Sapiens
 - Failure is not an Option
