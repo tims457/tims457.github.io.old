@@ -29,6 +29,7 @@ comments: false
 - Outliers
 - Sapiens
 - Seveneves
+- Siddhartha
 - Stories of Your Life and Others
 - Surely You're Joking Mr. Feynman
 - Thinking in Bets
