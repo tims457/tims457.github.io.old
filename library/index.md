@@ -37,8 +37,13 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
+
+- Chaos Kings
+- The Art of Learning
 - Blindsight
 - The Theoretical Minimum: Classical Mechanics
+- The Player of Games
+- The Last Warrior: Andrew Marshall and the Shaping of Modern American Defense Strategy
 - Why Greatness Cannot Be Planned
     > The problem is that the stepping stone does not resemble the final product.
 - Science, Strategy and War: The Strategic Theory of John Boyd

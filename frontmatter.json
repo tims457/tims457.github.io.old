@@ -23,28 +23,6 @@
       "path": "[[workspace]]/_notebook"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "CR3BP",
-    "Flax",
-    "Haiku",
-    "JAX",
-    "Julia",
-    "astrodynamics",
-    "decision making",
-    "denoising autoencoder",
-    "machine learning",
-    "model-based reinforcement learning",
-    "monte carlo tree search",
-    "natural language processing (NLP)",
-    "physics",
-    "proximal policy optimization (PPO)",
-    "pytorch",
-    "reinforcement learning",
-    "space",
-    "tensorflow",
-    "uncertainty"
-  ],
-  "frontMatter.taxonomy.categories": [],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
