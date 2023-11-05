@@ -6,12 +6,12 @@ excerpt: now
 comments: false
 ---
 
-last update: 2023-02-12
+last update: November 2023
 
 ## Learning
-I'm currently working through the material for the CU Boulder course [Decision Making Under Uncertainty](https://github.com/zsunberg/CU-DMU-Materials) and the text [Algorithms for Decision Making](https://algorithmsbook.com/)
+Finishing Susskind's *Quantum Mechanics (The Theoretical Minimum)*. Starting Hammack's *Book of Proof*.
 
 ## Reading
-- Fall or Dodge in Hell by Neal Stephenson
-- Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter
-- The Creative Act: A Way of Being by Rick Rubin
+- *Every Life Is on Fire: How Thermodynamics Explains the Origins of Living Things* by Jeremy England
+- *Clear Thinking* by Shane Parrish
+- *Echopraxia* by Peter Watts
