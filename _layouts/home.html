@@ -3,9 +3,10 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- endif -%} -->
+
 
   <h2>Recent Posts</h2>
 
@@ -32,6 +33,8 @@ layout: default
     {% endfor %}
   </ul>
 
-
+  <div class="post-content">
+    {{ content }}
+  </div>
 
 </div>
