@@ -1,2 +1,6 @@
-
-index.html.backup
+_site/
+.sass-cache
+.jekyll-metadata
+.vscode/
+.replit
+.local
