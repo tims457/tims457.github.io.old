@@ -37,7 +37,9 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
-
+- Every Life Is on Fire: How Thermodynamics Explains the Origins of Living Things
+- The Jungle Grows back
+- The Theoretical Minimum: Quantum Mechanics
 - Chaos Kings
 - The Art of Learning
 - Blindsight
