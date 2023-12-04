@@ -1,10 +1,17 @@
 {
     "folders": [
         {
-            "path": "_includes"
+            "path": "."
         },
         {
-            "path": "."
+            "path": "../old_site/"
         }
-    ]
+    ],
+    "settings": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
+        "editor.formatOnSave": true,
+        "github.copilot.enable": {
+            "markdown": "true"
+        }
+    }
 }
