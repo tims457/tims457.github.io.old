@@ -10,7 +10,7 @@ permalink: /archive/
 {% for post in sortedArchive %}
     {% if post.title != 'Archive' %}
     <li>
-        <span>{{ post.date | date_to_string }}</span> » {% if post.highlight %}&starf; {% endif %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <div style="float:full"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span style="float:right">{{ post.date | date_to_string }}</span></div>
     </li>
     {% endif %}
 {% endfor %}
