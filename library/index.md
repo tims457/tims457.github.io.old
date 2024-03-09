@@ -37,6 +37,14 @@ comments: false
 - Zero to One
 
 ## Somewhat chronologically
+- Reflections on Net Assessment
+- Foundry
+- Conflict
+- Reap3r
+- Net Assessment and Military Strategy
+- The Maniac
+- Mastery
+- 2034
 - Every Life Is on Fire: How Thermodynamics Explains the Origins of Living Things
 - The Jungle Grows back
 - The Theoretical Minimum: Quantum Mechanics
