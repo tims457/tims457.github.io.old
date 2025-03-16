@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript"></script>
+
+
+{%- include head.html -%}
+
+<body>
+  <div class="page">
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  </div>
+</body>
+
+<script>
+  // let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+  let theme = sessionStorage.getItem('theme');
+  if (theme === "dark") {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    sessionStorage.setItem('theme', 'light');
+  }
+
+  function modeSwitcher() {
+    let theme = sessionStorage.getItem('theme');
+    if (theme === "dark") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+    } else if (theme === "light") {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      sessionStorage.setItem('theme', 'dark');
+    }  else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+    }
+  }
+
+
+</script>
+
+
+</html>

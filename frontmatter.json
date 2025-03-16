@@ -1,0 +1,96 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "library",
+      "path": "[[workspace]]/library",
+      "originalPath": "[[workspace]]/library"
+    },
+    {
+      "title": "now",
+      "path": "[[workspace]]/now",
+      "originalPath": "[[workspace]]/now"
+    },
+    {
+      "title": "archive",
+      "path": "[[workspace]]/_archive",
+      "originalPath": "[[workspace]]/_archive"
+    },
+    {
+      "title": "notebook",
+      "path": "[[workspace]]/_notebook"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "title": "excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        }
+      ]
+    }
+  ]
+}
