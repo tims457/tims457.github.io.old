@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tim</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Tim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/tags/writing/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/writing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dissipative Adaptation</title>
+      <link>http://localhost:1313/tags/dissipative-adaptation/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/dissipative-adaptation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Statistical Mechanics</title>
+      <link>http://localhost:1313/tags/statistical-mechanics/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/statistical-mechanics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thermodynamics</title>
+      <link>http://localhost:1313/tags/thermodynamics/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/thermodynamics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Decision Making</title>
+      <link>http://localhost:1313/tags/decision-making/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/decision-making/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Julia</title>
+      <link>http://localhost:1313/tags/julia/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/julia/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Monte Carlo Tree Search</title>
+      <link>http://localhost:1313/tags/monte-carlo-tree-search/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/monte-carlo-tree-search/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>http://localhost:1313/tags/uncertainty/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/uncertainty/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

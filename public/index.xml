@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Tim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Resources on learning and writing</title>
+      <link>http://localhost:1313/archive/2024-03-10-resources-on-learning-and-writing/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/archive/2024-03-10-resources-on-learning-and-writing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Notes on Every Life is on Fire</title>
+      <link>http://localhost:1313/archive/2023-12-09-notes-on-every-life-is-on-fire/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/archive/2023-12-09-notes-on-every-life-is-on-fire/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Monte Carlo Tree Search</title>
+      <link>http://localhost:1313/archive/monte_carlo_tree_search/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/archive/monte_carlo_tree_search/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/books/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
